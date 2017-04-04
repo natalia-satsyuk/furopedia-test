@@ -1,0 +1,60 @@
+@media screen and (max-width: 992px){
+    .header-button-registration {
+        display: none;
+    }
+
+    .facts-block {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .facts-icon {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header {
+        padding: 25px 5px 30px;
+    }
+    
+    .header-mail,
+    .header-skype {
+        display: none;
+    }
+
+    .facts {
+        padding: 40px 0 15px;
+    }
+
+    .facts-block {
+        text-align: center;
+    }
+
+    .footer-support {
+        display: block;
+        padding-top: 20px;
+    }
+} 
+
+@media screen and (max-width: 480px){
+    .button {
+        padding: 10px 30px;
+        margin-top: 10px;
+    }
+
+    .header-logo-link {
+        font-size: 20px;
+    }
+
+    .welcome-heading {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .facts-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+} 
